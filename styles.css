@@ -317,7 +317,7 @@ legend {
   }
   .container,
   .container--grid {
-    width: 85%;
+    width: 95%;
     max-width: 465px;
     margin-inline: auto;
   }
