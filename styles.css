@@ -112,7 +112,7 @@ li {
   grid-template-columns: repeat(2, 1fr);
 }
 .tile {
-  background-color: var(--background);
+  background-color: #fff;
   box-shadow: 0 0 2px 2px #cdb0f2;
   padding: 1em;
   border-radius: 1em;
@@ -240,7 +240,7 @@ li {
 footer {
   margin-top: 3em;
   padding-top: 1em    ;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   width: 100%;
 }
 .form-flex {
@@ -254,6 +254,7 @@ fieldset {
 legend {
   font-weight: var(--fw-600);
   font-size: 1.5em;
+  color: var(--secondary);
 }
 #email {
   border: 1px solid var(--secondary);
@@ -269,14 +270,16 @@ legend {
   padding: 0.4em;
   border: 0;
   border-radius: 0.5em;
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-weight: var(--fw-500);
   margin-bottom: 1em;
   cursor: pointer;
 
 }
 .copyright {
   padding-bottom: 1em;
+  color: var(--secondary);
 
 }
 /* MEDIA QUERIES */
