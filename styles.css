@@ -27,6 +27,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: var(--ff-main);
+  overflow-x: hidden;
 }
 img, svg, picture, video, canvas, iframe {
   max-width: 100%;
@@ -110,6 +111,7 @@ li {
 .container--grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
 }
 .tile {
   background-color: #fff;
@@ -300,6 +302,7 @@ legend {
       "build2"
       "build3";
       margin-top: 5em;
+      padding: 1em;
 
   }
   .item {
@@ -314,13 +317,14 @@ legend {
   }
   .container,
   .container--grid {
-    width: 90%;
-    max-width: 460px;
+    width: 85%;
+    max-width: 465px;
     margin-inline: auto;
   }
   .container--grid {
     display: grid;
     grid-template-columns: 15% 1fr;
+    width: 80%;
 
   }
   .item--six {
