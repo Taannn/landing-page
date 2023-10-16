@@ -170,11 +170,11 @@ li {
   padding: 0.5em 0;
   background-color: white;
 }
-.nav-hover {
+.nav-link {
   border-bottom: 2px solid transparent;
   transition: all 0.2s ease;
 }
-.nav-hover:hover {
+.nav-link:hover {
   color: var(--primary);
   border-bottom: 2px solid var(--primary);
 }
@@ -379,4 +379,3 @@ legend {
     margin-inline: auto;
   }
 }
-@media (min-width: 1281px) {
