@@ -324,7 +324,6 @@ legend {
   .container--grid {
     display: grid;
     grid-template-columns: 15% 1fr;
-    width: 80%;
 
   }
   .item--six {
